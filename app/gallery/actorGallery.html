@@ -1,0 +1,23 @@
+<actor-navbar></actor-navbar>
+
+<div class="container">
+    <div class="actors" ng-controller="actorGalleryCtrl">
+        <div class="srch">
+        Search: <input type="text" ng-model="query.firstName" />
+        Order By: <select ng-model="orderProp">
+                    <option value="firstName">FirstName</option>
+                  </select>
+        </div>
+
+        <div class="row">
+            <div class = "actor col-sm-4 col-md-4 col-lg-4 col-xs-12"  ng-repeat="actor in actors  | filter : query | orderBy: orderProp">
+            <div class="well">
+            <a ng-href="{{actor.imdbUrl}}" target="_blank">
+                <img class="img img-responsive" ng-src="{{actor.image}}" alt="actor img"></img>
+            </a>
+            <p class="actname">{{actor.firstName + " " +  actor.lastName}}</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div> 

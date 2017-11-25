@@ -1,7 +1,8 @@
 
 actorApp.directive("actorNavbar", function() {
     return {
-        templateUrl: "app/nav/nav.html"//,
-        //controller: "navCtrl"
+        templateUrl: "app/nav/nav.html",
+        controller: "navCtrl",
+        restrict: "E"
     }
 })

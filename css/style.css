@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    margin-bottom:0;
+    text-align: center;
+}
+
+
+.actors{
+    text-align: center;
+}
+
+
+.img{
+    text-align: center;
+    width:100%;
+}
+
+.actname{
+    font-weight: bold;
+}
+
+.srch{
+    padding:10px;
+}

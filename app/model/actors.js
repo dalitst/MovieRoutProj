@@ -1,4 +1,4 @@
-carApp.factory("actors", function(Actor) {
+actorApp.factory("actors", function(Actor) {
     var actors = [];
 
     function getAll() {
@@ -16,8 +16,8 @@ carApp.factory("actors", function(Actor) {
     function setActors(actorsPlain) {
         actors = [];
         for (var i = 0; i < actorsPlain.length; i++) {
-            actors.push(new Actor(actorsPlain[i].brand, actorsPlain[i].model, 
-                actorsPlain[i].year, actorsPlain[i].km))
+            actors.push(new Actor(actorsPlain[i].firstName, actorsPlain[i].lastName, 
+                actorsPlain[i].image, actorsPlain[i].imdbUrl))
         }
     }
 
