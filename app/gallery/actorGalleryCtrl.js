@@ -1,5 +1,5 @@
 actorApp.controller("actorGalleryCtrl", function($scope, actors, $log, $http, $location) {
-    $scope.test = "galcrtlewewew";
+    //$scope.test = "galcrtlewewew";
 
     // http call to get data from json
     $http.get("app/model/data/actors.json").then(function mySuccess(response) {
