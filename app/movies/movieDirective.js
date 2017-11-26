@@ -1,6 +1,6 @@
 actorApp.directive("myMovie", function(){
     return {
-      templateUrl: "myMovie.html",
+      templateUrl: "app/movies/myMovie.html",
       restrict: "E"
     };
   });

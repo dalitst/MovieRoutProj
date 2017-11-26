@@ -1,20 +1,20 @@
 [{
     "title":"Wonder Woman",
-    "duration":"141",
+    "duration":141,
     "cast":["Gal Gadot","Chris Pine","Connie Nielsen"],
     "director":"Zack Snyder",
     "imdbUrl":"http://www.imdb.com/title/tt0451279/?ref_=nm_knf_i1"
 },
  {
      "title":"Batman v Superman",
-     "duration":"151",
+     "duration":151,
      "cast":["Ben Affleck","Gal Gadot","Henry Cavill"],
      "director":"Zack Snyder",
      "imdbUrl":"http://www.imdb.com/title/tt2975590/?ref_=nm_knf_i2"
  },
  {
     "title":"Mr. & Mrs. Smith",
-    "duration":"120",
+    "duration":120,
     "cast":["Brad Pitt","Angelina Julie","Vince Vaughn"],
     "director":"Peter Berg",
     "imdbUrl":"http://www.imdb.com/title/tt0356910/?ref_=nm_knf_i3" 
